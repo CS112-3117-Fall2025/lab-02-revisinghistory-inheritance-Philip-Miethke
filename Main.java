@@ -30,7 +30,7 @@ public class Main {
 		String myDiscoveryDescription = "Vikings had a settlement in North America exactly one thousand years ago, centuries before Christopher Columbus arrived in the Americas, a study says.";
 		Date myDiscoveryDate = new Date(10, 12, 1492);
 		
-		String myDiscoveryRevised = "Scientists say a new dating technique analysing tree rings has provided evidence that Vikings occupied a site in Newfoundland, Canada, in 1021AD.It has long been known that Europeans reached the Americas before Columbus's arrival in the New World in 1492.But this is the first time researchers have suggested an exact date.";
+		String myDiscoveryRevised = "Scientists say a new dating technique analysing tree rings has provided evidence that Vikings occupied a site in Newfoundland, Canada, in 1021AD.It has long been known that Europeans reached the Americas before Columbus's arrival in the New World in 1492.But this is the first time researchers have suggested an exact date.Writing in the journal Nature, scientists said they had analysed the tree rings of three pieces of wood cut for the Norse settlement at L'Anse aux Meadows.They said that using an atmospheric radiocarbon signal produced by a dated solar storm as a reference, they were able to pin the exact felling year of the tree to 1021.";
 		
 		String myDiscoveryCitation = "https://www.bbc.com/news/world-us-canada-58996186";
 
