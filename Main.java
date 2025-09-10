@@ -26,5 +26,20 @@ public class Main {
 		System.out.println("REVISED HISTORICAL EVENT EXAMPLE:");
 		System.out.println("====================================================");
 		tulsaMassacre.teach();
+
+		String myDiscoveryDescription = "Vikings had a settlement in North America exactly one thousand years ago, centuries before Christopher Columbus arrived in the Americas, a study says.";
+		Date myDiscoveryDate = new Date(10, 12, 1492);
+		
+		String myDiscoveryRevised = "Scientists say a new dating technique analysing tree rings has provided evidence that Vikings occupied a site in Newfoundland, Canada, in 1021AD.It has long been known that Europeans reached the Americas before Columbus's arrival in the New World in 1492.But this is the first time researchers have suggested an exact date.";
+		
+		String myDiscoveryCitation = "https://www.bbc.com/news/world-us-canada-58996186";
+
+		RevisedHistoricalEvent columbusDiscovery = new RevisedHistoricalEvent(
+			myDiscoveryDescription, myDiscoveryDate, myDiscoveryRevised, myDiscoveryCitation);
+
+		System.out.println("\n====================================================");
+		System.out.println("REVISED HISTORICAL EVENT EXAMPLE: MY LAI MASSACRE");
+		System.out.println("====================================================");
+		columbusDiscovery.teach();
 	}
 }
